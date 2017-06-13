@@ -42,7 +42,7 @@ And now ,enjoy the shadowsocks!
 
 下载 源码，需要注意的是 GitHub版本仓库中的代码并不能直接拿来编译，只能手动下载Release的 zip 源码包。这里的命令不要照搬，版本号有可能发生变更，请灵活处理。
 
-#按照wiki安装好各个依赖 ，需要注意的是 qt5-default 这个包的作用是切换系统 qt 到 qt5
+# 按照wiki安装好各个依赖 ，需要注意的是 qt5-default 这个包的作用是切换系统 qt 到 qt5
 # 解压缩，然后进入目录
 # 生成 Makefile，确保 qmake 版本为 qt5
 qmake && make
@@ -52,12 +52,12 @@ dpkg-buildpackage -uc -us -b
 sudo dpkg -i xxxxxx.deb
 接下来编译主角 Shadowsocks-Qt5 ，下载 源码 ，与编译 libqtshadowsocks 基本一致。
 
-#按照wiki安装好各个依赖
+# 按照wiki安装好各个依赖
 # 解压缩，然后进入目录
-qmake && make
-dpkg-buildpackage -uc -us -b
-sudo dpkg -i ../shadowsocks-qt5_2.4.1-1_amd64.deb
-安装完毕之后就可以使用了。
+qmake && make  
+dpkg-buildpackage -uc -us -b  
+sudo dpkg -i ../shadowsocks-qt5_2.4.1-1_amd64.deb  
+安装完毕之后就可以使用了。  
 Reference:
 
 1:http://www.jianshu.com/p/0fac439b3d38

@@ -3,10 +3,12 @@
 https://get.adobe.com/flashplayer/?promoid=KLXMF
 在这里我们要选择tar.gz for linux。注意 下面ubuntu版本的已经太老不能用了。下载下来后解压。可以看到libflashplayer.so这个文件以及/usr文件夹。下面进行下面两部：
 
-1：将libflashplayer.so复制到你系统下firefox的插件目录。我现在用的是ubuntu16.04。位置是/usr/lib/firefox-addons/plugins
+1：将libflashplayer.so复制到你系统下firefox的插件目录。我现在用的是ubuntu16.04。位置是/usr/lib/firefox-addons/plugins  
 
-cp libflashplayer.so /usr/lib/firefox-addons/plugins
-2：将/usr文件夹下内容全部复制到系统的/usr文件夹下
+DEEPIN 15.4的目录是  
+/usr/lib/mozilla/plugins    
+cp libflashplayer.so /usr/lib/firefox-addons/plugins  
 
-sudo cp -r usr/* /usr
+~~2：将/usr文件夹下内容全部复制到系统的/usr文件夹下~~  
+~~sudo cp -r usr/* /usr~~  
 大功告成！

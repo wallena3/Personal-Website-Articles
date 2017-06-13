@@ -15,8 +15,8 @@
 
 你会看到
 
-# User privilege specification
- root ALL=(ALL:ALL) ALL
+User privilege specification  
+ root ALL=(ALL:ALL) ALL  
 比如你的用户名是walle，就再写一行，把root变成walle就可以了
 当然如果你理解上面的原理后，可以直接输入如下命令解决此问题
 
