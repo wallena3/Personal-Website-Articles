@@ -1,14 +1,12 @@
 Ubuntu日常使用问题汇总
 
-
-
 1：在非正常取消一次更新后显示
 
 无法锁定管理目录(/var/lib/dpkg/)，是否有其他进程正占用它
 
 sudo rm /var/cache/apt/archives/lock
 sudo rm /var/lib/dpkg/lock
-2：在更新时提示：
+2：在更新时提示：  
 
 W: 仓库 “http://security.ubuntu.com/ubuntu xenial-security Release” 没有 Release 文件。
 N: 无法认证来自该源的数据，所以使用它会带来潜在风险。

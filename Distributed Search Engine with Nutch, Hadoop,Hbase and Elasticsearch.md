@@ -1,7 +1,5 @@
 使用Nutch，Hadoop，Hbase以及ElasticSearch构建分布式搜索引擎
 
-
-
 All in all,we use the Pseudo-Distributed Method to implement the Search Engine.By the way, this artical is for 'apt-get' system linux,but 'yum' system can also reference this.We assume you already configurate the java correctly,or you can see my article about configutate java on linux.
 
 In this project,we use:

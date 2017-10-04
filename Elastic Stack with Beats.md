@@ -177,11 +177,6 @@ more details see the official guide
 Now, after few seconds,you can see the filebeat-* pattern on Kibana.Until now, Elastic Stack with beats platform has been successfully built.
 
 
-
-
-
-
-
 Reference:
 
 1:https://www.elastic.co/guide/en/beats/libbeat/1.3/index.html
