@@ -3,6 +3,6 @@
 
 ## License
 ![](http://www.gnu.org/graphics/lgplv3-147x51.png)  
-Copyright © 2019 wallena3 (He Wang)
+Copyright © 2020 wallena3 (He Wang)
 
 This project is licensed under version 3 of the GNU General Public License.
