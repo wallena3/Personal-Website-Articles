@@ -6,6 +6,6 @@
 
 
 
-Copyright © 2020 wallena3 (He Wang)
+Copyright © 2020 
 
 This project is licensed under version 3 of the GNU General Public License.
